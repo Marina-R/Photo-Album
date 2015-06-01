@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Photo Album</title>
+	<meta charset='utf8'>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<section id='welcome-page'>
+		<div id="header">My Albums</div>		
+		<div id="main">
+			<div class="row">
+				<div class="album">
+					<div class="icon ukr"><img src="images/icon1.png"></div>
+					<div class="title">Ukraine</div>
+				</div>
+				<div class="album">
+					<div class="icon kiev"><img src="images/icon1.png"></div>
+					<div class="title">Kiev</div>
+				</div>
+				<div class="album">
+					<div class="icon cuisine"><img src="images/icon1.png"></div>
+					<div class="title">Ukrainian cuisine</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="album">
+					<div class="icon people"><img src="images/icon1.png"></div>
+					<div class="title">Famous people from Ukraine</div>
+				</div>
+				<div class="album">
+					<div class="icon visited"><img src="images/icon1.png"></div>
+					<div class="title">Where I've been</div>
+				</div>
+				<div class="album">
+					<div class="icon plans"><img src="images/icon1.png"></div>
+					<div class="title">Where I want to go</div>
+				</div>
+			</div>	
+		</div>
+	</section>
+
+	<section id='finder'>
+		<div id="nav">
+			<div class="folder ukr">Ukraine</div>
+			<div class="folder kiev">Kiev</div>
+			<div class="folder cuisine">Ukrainian cuisine</div>
+			<div class="folder people">Famous people from Ukraine</div>
+			<div class="folder visited">Where I've been</div>
+			<div class="folder plans">Where I want to go</div>
+		</div>
+		<div class="preview" id='Ukraine'>
+			<div id="album-title"></div>
+			<div id="photo-preview">
+				<div class="pics album" id='photo0'></div>
+				<div class="pics album" id='photo1'></div>
+				<div class="pics album" id='photo2'></div>
+				<div class="pics album" id='photo3'></div>
+				<div class="pics album" id='photo4'></div>
+				<div class="pics album" id='photo5'></div>
+			</div>
+		</div>
+	</section>
+
+	<section id='photo'>
+		<div id="back-to-album">&#10094 &nbsp &nbsp Back to Album</div>
+		<div id="photo-name">Photo</div>	
+		<div id="my-photo"></div>
+	</section>
+
+	<script type="text/javascript" src='bower_components/jquery/dist/jquery.min.js'></script>
+	<script type="text/javascript" src='photo-album.js'></script>
+</body>
+</html>

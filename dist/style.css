@@ -1,0 +1,130 @@
+#welcome-page, #finder, #photo {
+	position: absolute;
+	height: 100%;
+	width: 100%;
+}
+.icon, .folder, #back-to-album, .album {
+	cursor: pointer;
+}
+#header {
+	height: 200px;
+	background-image: url(images/header.jpg);
+	background-size: 100% 200px;
+	text-align: center;
+	line-height: 200px;
+	color: #f3f2f2;
+	font-size: 70px;
+	font-family: Constantia, serif;
+	font-weight: bold;
+}
+#main {
+	background-image: url(images/background.jpg);
+	height: 75%;
+}
+.row {
+	height: 50%;
+	width: 750px;
+	margin: 0 auto;
+}
+.album {
+	display: inline-block;
+	height: 170px;
+	width: 130px;
+	vertical-align: top;
+	text-align: center;
+	margin: 50px 50px;
+}
+.icon:hover {
+	-moz-box-shadow: 0 0 5px rgba(0,0,0,0.5);
+	-webkit-box-shadow: 0 0 5px rgba(0,0,0,0.5);
+	box-shadow: 0 0 5px rgba(0,0,0,0.5);
+}
+.icon {
+	position: relative;
+	width: 100%;
+	height: 75%;
+	background-size: 100%;
+}
+img {
+	max-width: 100%;
+	display: block;
+	margin: 0 auto;
+}
+.title {
+	text-align: center;
+	color: #42403e;
+	font: 16px Constantia, serif;
+	height: 30px;
+	margin-top: 10px; 
+}
+
+#finder {
+	display: none;
+}
+#nav {
+	height: 100%;
+	background-image: url(images/header.jpg);
+	padding-top: 80px;
+	float: left;
+	width: 200px;
+}
+.preview {
+	background-image: url(images/background.jpg);
+	height: 100%;
+	padding-bottom: 80px;
+	overflow: hidden;
+}
+.folder {
+	width: 180px;
+	height: 40px;
+	background-image: url(images/background.jpg);
+	margin: 10px auto; 
+	text-align: center;
+	padding-top: 5px;
+	color: #42403e;
+	font: 16px Constantia, serif;
+	font-weight: bold;
+}
+.folder:hover {
+	padding-left: 7px;
+}
+#album-title {
+	height: 150px;
+	color: #42403e;
+	font-weight: bold;
+	font: 60px Constantia, serif;
+	text-align: center;
+	line-height: 150px;
+}
+
+#photo {
+	display: none;
+}
+#photo {
+	background-image: url(images/background.jpg);
+	overflow: auto;
+}
+#photo-name {
+	height: 100px;
+	font: 60px Constantia, serif;
+	color: #42403e;
+	text-align: center;
+	line-height: 100px;
+}
+#back-to-album {
+	position: fixed;
+	top:30px;
+	left: 20px;
+	height: 30px;
+	width: 160px;
+	background-color: #989491;
+	border-radius: 5px;
+	text-align: center;
+	line-height: 30px;
+}
+#my-photo {
+	width: 530px;
+	height: 580px;
+	background-size: 100%;
+	margin: 0 auto; 
+}
